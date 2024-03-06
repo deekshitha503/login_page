@@ -1,46 +1,4 @@
-.card {
-    perspective: 1000px;
-    width: 200px; /* card width */
-    height: 200px; /*card height */
-  }
-  
-  .card-inner1 {
-    width: 200px;
-    height: 200px;
-    transform-style: preserve-3d;
-    transition: transform 0.5s;
-    }
-  .reg{
-    cursor:pointer;
-  }
-  .reg:active .card-inner1 {
-    transform: rotatey(180deg);
-  }
-  
-  .card-front,
-  .card-back {
-     position: absolute;
-    backface-visibility: hidden;
-    border: 2px solid whitesmoke;
-    border-radius: 20px;
-  }
-  
-  .card-back {
-    transform: rotateY(180deg);
-    background-color: bisque;
-    width: 200px;
-    height: 200px;
-  }
-  .card-inner2{
-    width: 300px;
-    height: 300px;
-  }
-  .front{
-    width: 200px
-    ;height: 200px;
-  }
-
-  * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -53,7 +11,7 @@
 }
 
 body {
-    background-image: url("https://usa.bootcampcdn.com/wp-content/uploads/sites/66/2020/05/shutterstock_753780223-850x412.jpg");
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA0iOzZ7l90hRbZLB6nwoVw354SxuhT1nsyw&s");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -76,7 +34,7 @@ a:hover {
 }
 .login-box {
     position: relative;
-    width: 450px;
+    width: 480px;
     backdrop-filter: blur(25px);
     border: 2px solid var(--primary-color);
     box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
@@ -93,7 +51,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     background-color: var(--primary-color);
-    width: 140px;
+    width: 137px;
     height: 70px;
     border-radius: 0 0 20px 20px;
 }
@@ -129,9 +87,9 @@ a:hover {
     flex-direction: column;
     margin: 20px 0;
 }
-.input-field {
+.input {
     width: 100%;
-    height: 55px;
+    height: 57px;
     font-size: 16px;
     background: transparent;
     color: var(--second-color);
@@ -214,3 +172,4 @@ a:hover {
 .icon.blinking {
     animation: blink 1s infinite;
 }
+
